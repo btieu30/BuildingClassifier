@@ -1,0 +1,6 @@
+How to test model:
+
+- Activate the conda environment Professor Rado provided in the CCI cluster
+- Make sure cnn_buildings_epoch_30.pth is in the same directory as test.py
+- Make sure dataset.py (and all other Python files provided) is in the same directory as test.py 
+- Do python test.py <dataset directory> <labels CSV file>
